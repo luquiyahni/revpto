@@ -1,0 +1,9 @@
+#bolas {
+    margin-bottom: 20px;
+    background: $color02;
+}
+
+#main02 {
+    @extend #bolas;
+    background: $color03;
+}

@@ -1,0 +1,9 @@
+.navbar-header {
+    width: 100%;
+}
+
+@media (min-width:768px) {
+    .navbar-header {
+        width: 30%;
+    }
+}
