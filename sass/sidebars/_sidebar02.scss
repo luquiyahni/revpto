@@ -1,19 +1,25 @@
-#sb0201 {
+#sb0201Content {
     background-color: $color05;
+    height: 300px;
+    margin-bottom: 20px;
 }
 
-#sb0202 {
+#sb0202Content {
+    @extend #sb0201Content;
     background-color: $color06;
 }
 
-#sb0203 {
+#sb0203Content {
+    @extend #sb0201Content;
     background-color: $color07;
 }
 
-#sb0204 {
+#sb0204Content {
+    @extend #sb0201Content;
     background-color: $color08;
 }
 
-#sb0205 {
+#sb0205Content {
+    @extend #sb0201Content;
     background-color: $color09;
 }
